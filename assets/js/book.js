@@ -19,8 +19,8 @@
 const IMAGE_FOLDER = 'assets/images';
 
 const PAGES = [
-  { file: 'dreampage-01.png',  chapter: 'Dreams'  },
-  { file: 'dreampage-02.png', chapter: 'Dreams' },
+  { file: 'dreampage-01.png',  chapter: 'Journal'  },
+  { file: 'dreampage-02.png', chapter: 'Journal' },
   { file: 'dreampage-01.png',  chapter: 'Dreams'  },
   { file: 'dreampage-02.png', chapter: 'Dreams' },
 ];
