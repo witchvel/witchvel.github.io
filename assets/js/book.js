@@ -24,7 +24,6 @@ const PAGES = [
   { file: 'journal-03.png', chapter: 'Journal' },
   { file: 'dreampage-01.png',  chapter: 'Dreams'  },
   { file: 'dreampage-02.png', chapter: 'Dreams' },
-  { file: 'dreams-02.png',  chapter: 'Dreams'  },
 ];
 
 // The label shown on each chapter's tab (order here doesn't matter —
