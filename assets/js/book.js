@@ -19,10 +19,10 @@
 const IMAGE_FOLDER = 'assets/images';
 
 const PAGES = [
-  { file: 'dreamjournal-01.png', chapter: 'Journal' },
-  { file: 'dreamjournal-02.png', chapter: 'Journal' },
-    { file: 'dreamjournal-01.png', chapter: 'dreams' },
-  { file: 'dreamjournal-02.png', chapter: 'dreams' },
+  { file: 'dreampage-01.png', chapter: 'Journal' },
+  { file: 'dreampage-02.png', chapter: 'Journal' },
+    { file: 'dreampage-01.png', chapter: 'dreams' },
+  { file: 'dreampage-02.png', chapter: 'dreams' },
 ];
 
 // The label shown on each chapter's tab (order here doesn't matter —
