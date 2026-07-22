@@ -284,6 +284,7 @@ a { color: inherit; text-decoration: none; }
   min-height: 100svh;
   width: 100vw;
   overflow: hidden;
+   background: #000000;  
 }
 
 
