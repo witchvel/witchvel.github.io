@@ -278,7 +278,9 @@ a { color: inherit; text-decoration: none; }
    -------------------------------------------------------------------------- */
 
 .cover-page {
-  display: flex;
+   display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 100svh;
   width: 100vw;
   overflow: hidden;
@@ -301,7 +303,6 @@ a { color: inherit; text-decoration: none; }
 }
 
 .cover-art-side {
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,13 +341,6 @@ a { color: inherit; text-decoration: none; }
 .cover-enter:hover { transform: translateX(-50%) translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,0.55); }
 .cover-enter svg { width: 15px; height: 15px; }
 
-/* mobile: stack cover art on top (majority of screen), table as a shelf-like strip below */
-@media (max-width: 760px) {
-  .cover-page { flex-direction: column; }
-  .cover-art-side { flex: 3; order: 1; padding: 4vh 6vw; }
-  .cover-table-side { flex: 1; min-height: 130px; order: 2; }
-  .cover-table-side::after { background: linear-gradient(0deg, transparent 60%, rgba(24,15,36,0.35)); }
-}
 
 /* --------------------------------------------------------------------------
    Scrapbook page viewer (book.html)
