@@ -286,21 +286,6 @@ a { color: inherit; text-decoration: none; }
   overflow: hidden;
 }
 
-.cover-table-side {
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-  background-color: #000000; /* shows while table-bg.jpg loads / if missing */
-  position: relative;
-}
-
-.cover-table-side::after {
-  /* soft vignette so the cover art side blends into the table side */
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, transparent 60%, rgba(24,15,36,0.35));
-}
 
 .cover-art-side {
   display: flex;
